@@ -69,7 +69,8 @@ st.balloons()
 
 
 # In[9]:
-
+# INITIALIZING THE EasyOCR READER
+reader = easyocr.Reader(['en'])
 
 # CONNECTING WITH MYSQL DATABASE
 mydb = sql.connect(host="localhost",
